@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Course Registration Form</h2>
+
+  <form>
+    <fieldset>
+      <legend>Personal Details</legend>
+
+      <label>First Name</label>
+      <input type="text" placeholder="e.g. Jeeva">
+
+      <label>Surname
+        <input type="text">
+      </label>
+
+      <label>Mobile Number</label>
+      <input type="text" placeholder="e.g. +91 98765 43210">
+
+      <label>Email</label>
+      <input type="email" placeholder="example@gmail.com">
+      
+
+      <label>Password</label>
+      <input type="password" placeholder="Min 6 characters">
+      
+
+      <label>Confirm Password</label>
+      <input type="password" placeholder="Re-enter password">
+      
+
+      <label>DOB</label>
+      <input type="date">
+      
+
+      <label>Age</label>
+      <input type="number" min="0">
+      
+
+      <label class="gen">Gender
+      <input type="radio" name="gender"> Male
+      <input type="radio" name="gender"> Female
+      <input type="radio" name="gender"> Others
+    </label>
+      
+      
+      
+
+      <label>Select Country</label>
+        <select>
+          <option>INDIA</option>
+          <option>USA</option>
+          <option>UK</option>
+          <option>Other</option>
+        </select>
+      
+
+      <label>Upload Resume</label>
+      <input type="file">
+      
+
+      <button type="reset">Reset</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>Course Details</legend>
+
+      <label>Select Course
+        <select>
+          <option>Python Full Stack</option>
+          <option>Java Full Stack</option>
+          <option>Data Science</option>
+        </select>
+      </label>
+
+      <label>Delivery Mode
+        <input type="radio" name="delivery"> ONLINE
+        <input type="radio" name="delivery"> OFFLINE
+      </label>
+        
+      
+
+      <label>INSTITUTE NAME:
+        <span class="highlight">TAP ACADEMY</span>
+      </label>
+
+      <label>Comments</label>
+      <textarea rows="4" placeholder="Write your comment..."></textarea>
+      
+
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+
+</body>
+</html>

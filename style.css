@@ -1,0 +1,123 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  margin: 0;
+  padding: 40px;
+  color: #e5e5e5;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  font-size: 2em;
+  color: #ffffff;
+}
+
+form {
+  max-width: 700px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 35px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+fieldset {
+  border: 1px solid #6a7cff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+legend {
+  padding: 5px 15px;
+  font-weight: 600;
+  color: #cdd9f5;
+  font-size: 1.1em;
+  background: #1c1f4a;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-size: 0.95em;
+  color: #e0e8ff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+select,
+textarea {
+  width: 90%;
+  padding: 12px;
+  margin-top: 6px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1em;
+  background: rgba(255, 255, 255, 0.07);
+  color: #ffffff;
+  box-shadow: inset 0 0 5px rgba(255,255,255,0.05);
+}
+
+input[type="file"] {
+  margin-top: 6px;
+  color: #ffffff;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #cccccc;
+}
+
+.gender-options,
+.delivery-mode {
+  display: flex;
+  gap: 20px;
+  margin-top: 6px;
+}
+
+.gender-options label,
+.delivery-mode label {
+  font-size: 0.9em;
+  color: #d3d8e8;
+}
+
+.highlight {
+  background-color: #6a7cff;
+  padding: 5px 12px;
+  display: inline-block;
+  font-weight: 600;
+  color: white;
+  border-radius: 6px;
+}
+
+button,
+input[type="submit"] {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #6a7cff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background: #4b5de1;
+  transform: scale(1.03);
+}
+
+button:active,
+input[type="submit"]:active {
+  transform: scale(0.98);
+}
